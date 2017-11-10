@@ -27,7 +27,7 @@ class Student
       DROP TABLE students
       )
       SQL
-    #DB[:conn].execute(sql)
+    #DB[:conn].execute(table_check_sql)[0]
   end
 
 end
